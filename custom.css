@@ -1,0 +1,37 @@
+.hero__section {
+  background-image: url("./img/img/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.status {
+  background:
+    linear-gradient(
+      90deg,
+      rgb(21, 105, 190, 0.8) 0%,
+      rgb(21, 105, 199, 0.8) 100%
+    ),
+    url("./img/img/post-3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.p-img {
+  transition: transform 1s ease;
+}
+.p-img:hover {
+  transform: scale(1.2);
+}
+.form__section {
+  padding: 100px 0;
+  background:
+    linear-gradient(
+      90deg,
+      rgb(21, 105, 190, 0.8) 0%,
+      rgb(21, 105, 199, 0.8) 100%
+    ),
+    url("./img/img/overlay-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
