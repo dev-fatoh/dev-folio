@@ -4,6 +4,9 @@
   background-position: center;
   background-attachment: fixed;
 }
+.img {
+  object-fit: cover;
+}
 .status {
   background:
     linear-gradient(
